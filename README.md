@@ -1,2 +1,11 @@
 # singularity_blog_post
-Blog post of my Singularity workflow
+
+I am a reseacher that tries to predict
+how people look like from their genetic code,
+using a new artificial intelligence approach.
+Thanks to Singularity and Sylabs I can do reproducible research
+with privacy-sensitive data.
+
+
+
+
