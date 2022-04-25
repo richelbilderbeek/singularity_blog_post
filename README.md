@@ -6,6 +6,6 @@ using a new artificial intelligence approach.
 Thanks to Singularity and Sylabs I can do reproducible research
 with privacy-sensitive data.
 
-
+![My dashboard](my_dashboard.png)
 
 
