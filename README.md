@@ -8,4 +8,4 @@ with privacy-sensitive data.
 
 ![My dashboard](my_dashboard.png)
 
-
+![Overview of my containers and packages](overview.png)
