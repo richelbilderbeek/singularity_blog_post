@@ -73,6 +73,13 @@ I set up my `plinkr` Singularity container to contain (1) an R environment,
 (2) the `plinkr` R package and (3) PLINK pre-installed to a certain location.
 In this way, one can work with GWAS data in any HPC environment.
 
+![](plinkr_result.png)
+
+> Figure 3: the result of `plinkr`: the second SNP (a Single Nucleotide
+> Polymorphics, i.e. one base pair of the DNA) is associated with the
+> phenotype (i.e. how an organism looks like), as its p value 
+> is (very close to zero)
+
 ## The `ormr` Singularity container
 
 The container above, the `ormr` Singularity container,
