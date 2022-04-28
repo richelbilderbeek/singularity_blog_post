@@ -116,6 +116,12 @@ the genomes of more similar individuals will be put close together.
 As this container depends on the `ormr` container,
 Python has already been set up.
 
+![](genotype_concordance.png)
+
+> Figure 4: A GenoCAE plot that shows the genotype concordance (i.e.
+> how well the neural network can reconstruct the genetic data)
+> per epoch (i.e. learning cycle)
+
 The `gcaer` R package is a package that is not yet standard, which allows
 one to work with GenoCAE: un/install it to a standard locaation
 and run it. `gcaer` does much more than GenoCAE, as it is more rigorous
@@ -124,6 +130,12 @@ messages. I enjoy it when code fails fast, instead of at the end of
 a (long) calculation. Also, `gcaer` can read the output of GenoCAE and
 put it into plots. As this container depends on the `plinkr` container,
 R has already been set up.
+
+![](genotype_concordances.png)
+
+> Figure 5: A `gcaer` plot that shows the genotype concordance (i.e.
+> how well the neural network can reconstruct the genetic data)
+> per epoch (i.e. learning cycle)
 
 I set up my `gcaer` Singularity container to contain (1) GenoCAE installed,
 (2) the `gcaer` R package installed.
