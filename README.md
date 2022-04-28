@@ -150,11 +150,24 @@ Finally, using Singularity, another researcher can use my container
 and scripts to re-do my experiments. This is important to me, as
 reproducibility is a pillar of good science.
 
+## Lessons learned
+
+I learned that the most important thing when building a Singularity
+container, is to depend on another, well-tested, container.
+In my case, I discover The Rocker Project [5], that produces Docker
+containers for R. My `plinkr` container depends on one of their containers.
+
+Another thing I learned, is that the Singularity developer I ran into
+most often, Vanessa [6], is a joy to work with. She is fast and
+appreciates my -hopefully well-written- bug reports to make
+Singularity even better.
+
 ## Conclusion
 
-
-
-
+Singularity is a great way to do good science, by allowing
+anyone to run well-tested containers in their favorite environment.
+I do suggest to prefer to select a well-crafted container to extend,
+over writing one from scratch.
 
 ## References
 
@@ -162,4 +175,5 @@ reproducibility is a pillar of good science.
  * [2] Igl, Wilmar, Åsa Johansson, and Ulf Gyllensten. "The Northern Swedish Population Health Study (NSPHS)–a paradigmatic study in a rural population combining community health and basic research." Rural and remote health 10.2 (2010): 198-215.
  * [3] Purcell S, Neale B, Todd-Brown K, Thomas L, Ferreira MAR, Bender D, Maller J, Sklar P, de Bakker PIW, Daly MJ & Sham PC (2007) PLINK: a toolset for whole-genome association and population-based linkage analysis. American Journal of Human Genetics, 81.
  * [4] Chang CC, Chow CC, Tellier LCAM, Vattikuti S, Purcell SM, Lee JJ (2015) Second-generation PLINK: rising to the challenge of larger and richer datasets. GigaScience, 4.
-
+ * [5] [https://www.rocker-project.org/](https://www.rocker-project.org/)
+ * [6] [@vsoch](https://github.com/vsoch)
