@@ -48,7 +48,9 @@ as shown in Figure 2.
 
 ![Overview of my containers and packages](overview.png)
 
-> Figure 2: overview of my containers and packages
+> Figure 2: overview of my containers and packages.
+> Wide arrows denote 'the item at the head depends on the item at the tail'.
+> Narrow arrows denote 'the item at the tail uses the item at the head'.
 
 ## The `plinkr` Singularity container
 
