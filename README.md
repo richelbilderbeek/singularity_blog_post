@@ -190,6 +190,12 @@ anyone to run well-tested containers in their favorite environment.
 I do suggest to prefer to select a well-crafted container to extend,
 over writing one from scratch.
 
+## Acknowledgements
+
+The computations and data handling were enabled by resources provided by the 
+Swedish National Infrastructure for Computing (SNIC) at UPPMAX partially funded 
+by the Swedish Research Council through grant agreement no. 2018-05973. 
+
 ## References
 
  * [1] Kristiina Ausmees, Carl Nettelblad, A deep learning framework for characterization of genotype data, G3 Genes|Genomes|Genetics, 2022;, jkac020, [https://doi.org/10.1093/g3journal/jkac020](https://doi.org/10.1093/g3journal/jkac020)
